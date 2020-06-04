@@ -1,0 +1,319 @@
+/* Styling Marquee*/
+marquee{
+    background: black;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+}
+/* Styling Navbar*/
+.navbar{
+    background-color: rgb(248, 118, 43) !important;
+    margin: 0px !important;
+   
+}
+.navbar-nav{
+    padding-left: 210px !important;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+
+}
+.d-block{
+max-width: 100% !important;
+height: 600px !important;
+
+}
+
+/* Styling Title/headings */
+.red
+{
+    color: rgb(247, 232, 97);
+    font-size: 70px;
+}
+.white{
+    color: white;
+    font-size: 70px;
+}
+.heading {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Styling About Us*/
+  .about{
+    position: absolute;
+    top: 67%;
+    left: 40%;
+    background-color: rgb(248, 245, 245);
+    text-align: center;
+    padding: 40px;
+    margin-right: 50px;
+  }
+
+  /* Styling Font-Awesome Icons */
+  .fa-map-marker{
+    color:rgb(248, 118, 43);
+  }
+  .fa-phone{
+    color:rgb(248, 118, 43);
+   
+  }
+  .fa-globe
+  {
+    color:rgb(248, 118, 43);
+  }
+  .fa-envelope-o{
+    color: rgb(248, 118, 43);
+   
+  }
+.fa-clock-o{
+  color: rgb(248, 118, 43);
+}
+.faicon{
+  color: white;
+  background: rgb(248, 118, 43);
+  padding: 9px 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook:hover{
+color:black;
+text-decoration: none;
+}
+.fa-instagram:hover{
+  color: black;
+  text-decoration: none;
+}
+
+/* Styling Footer*/
+  .footer{
+    padding:50px 70px 30px; 
+   
+    background-color:  rgb(22, 22, 22);
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+  }
+  .foot{
+    width: 400px; 
+    height: 250px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f7f8fa;
+  }
+  .foot1{
+    width: 400px; 
+    height: 250px; 
+    color: #f7f8fa;
+  }
+  .foot1 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .copyright{
+    background-color: black;
+    padding: 14px 0px 10px 100px; 
+    color:white;
+    text-align: center;
+  }
+  
+  
+
+  /* Styling Contact Us Page*/
+  .contact
+  {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .contact h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 40px;
+  }
+  .submsg{
+    padding-left: 42px;
+    padding-top: 30px;
+  }
+
+/* Styling About Us and Contact Us Section On Home Page*/
+  .habout{
+    text-align: center;
+    padding: 60px 100px; 
+    background-color: rgb(248, 245, 245);
+    font-weight: lighter;
+  
+  }
+  .hcontact{
+    text-align: center;
+    padding: 60px 100px; 
+    background-color: rgb(248, 245, 245);
+  
+  }
+  .checked {
+    color: orange;
+  }
+  
+  .links a{
+    font-size: 20px;
+    color: white;
+  }
+  .links a:hover{
+    color: rgb(248, 118, 43);
+  }
+
+  /* Styling Carousel Caption*/
+  .carousel-caption{
+    color:rgb(248, 118, 43) !important;
+    font-weight: bolder !important;
+    text-shadow: 1px 1px #020101 !important;
+    font-size: 20px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  }
+
+  /* Styling Menu Page*/
+
+ .nav-link:visited{
+    background-color: rgb(248, 118, 43) !important;
+  }
+  #v-pills{
+    color: black !important;
+  }
+  
+  .fast{
+    font-size: 70px;
+    margin:50px 270px;
+    color: rgb(248, 118, 43);
+   
+  }
+  .card{
+    margin-bottom: 20px !important;
+  }
+  .steaks{
+    font-size: 70px;
+    margin:50px 0px 50px 580px;
+    color: rgb(248, 118, 43);
+  }
+  .bbq{
+    font-size: 70px;
+    margin:50px 0px 50px 520px;
+    color: rgb(248, 118, 43);
+  }
+  .vBar a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    border: rgb(248, 118, 43) 2px solid ;
+    width: 200px;
+    border-radius: 45%;
+    padding: 5px 10px;
+  
+  }
+  .vBar li{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+  .verBar{
+    margin-top: 20px;
+   
+  }
+  .vBar a:hover{
+    text-decoration: none;
+    color: black;
+    background: rgb(248, 118, 43);
+  }
+  .vBar{
+    width: 300px;
+  }
+
+  
+/* Styling Heading on Gallery Page */
+  .celebrate{
+    font-family: 'Lobster';
+    font-size: 50px;
+  }
+
+/* Styling Text Area*/
+  .addr{
+    width: 556px; height: 100px; margin-top: 20px;
+  }
+  .message{
+    width: 556px; height: 280px; margin-top: 20px;
+  }
+
+  /* Styling Order Details */
+  .order{
+    width: 40%; 
+    padding: 70px 50px 0px; 
+    line-height: 35px; 
+    font-weight: bold; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .section2{
+    border-left: 3px rgb(248, 118, 43) solid; 
+    width: 55%; 
+    margin-left: 60px; 
+    height: 500px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+  }
+ /* Media Queries */ 
+  @media screen and (max-width:1100px)
+  {
+    .about{
+      margin: 100px 0px;
+        overflow-y: scroll;
+    }
+    .abt img{
+      width: 500px;
+    }
+    .footer{
+      margin-top: 150px;
+    }
+  }
+  @media screen and (max-width: 1100px)
+  {
+    .gallery img{
+      margin-bottom: 10px;
+    }
+  }
+  @media screen and (max-width:1200px){
+    .gallery img{
+      margin-left: 5px;
+      width: 220px;
+      height: 200px;
+    }
+  }
+   
+  @media screen and (max-width:700px)
+  {
+    .submsg textarea{
+      width:300px;
+     
+    }
+  }
+  .btn-primary{
+    background-color: rgb(248, 118, 43) !important;
+    border: none!important;
+  }
+  @media screen and (max-width:1200px)
+  {
+    
+    .steaks{
+      margin-left: 220px;
+    }
+    .bbq{
+      margin-left: 220px;
+    }
+    
+  }
