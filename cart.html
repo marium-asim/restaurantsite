@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <marquee> <i class="fa fa-map-marker"></i>&nbsp;D3 Block M North Nazimabad , Karachi &ensp;<i
+            class="fa fa-clock-o"></i>&nbsp;Mon-Fri: 6PM-12AM & Sat-Sun: 6PM-1AM &ensp; <i
+            class="fa fa-phone"></i>&nbsp;92-311-1140238 </marquee>
+
+    <!--Nav Bar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="business.html"
+            style="color: black !important; font-family: lobster; font-size: 40px;">Margarita<img src="f4.png"
+                alt="logo" width="70px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link " href="business.html">Home &ensp;</a>
+                <a class="nav-item nav-link active" href="about us.html">About Us &ensp;</a>
+                <a class="nav-item nav-link" href="menu.html">Menu &ensp;</a>
+                <a class="nav-item nav-link" href="gallery.html">Gallery &ensp;</a>
+                <a class="nav-item nav-link" href="contact us.html">Contact Us &ensp;</a>
+                <a class="nav-item nav-link" href="cart.html"><i class="fa fa-shopping-cart"
+                        style="font-size: 23px;">&nbsp;Cart</i></a>
+
+            </div>
+        </div>
+    </nav>
+    <div>
+
+        <img src="f5.jpg" alt="bbq" style="width: 100%; height: 250px; opacity: 0.87;">
+
+        <div class="heading">
+            <h1 class="white"><span class="red">HAPPY</span>&ensp;ORDERING!</h1>
+        </div>
+
+        <div class="contact">
+            <div class="order">
+<!--Order Details-->
+                <h2>Order Details</h2>
+                <table style="width: 100%; text-align: center;"">
+                 <tr style=" border: 1px solid black;">
+                    <td>Items</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                    </tr>
+
+                    <tr style="border-bottom:1px solid black;">
+                        <td>-</td>
+                        <td> <button type="button" name="subtract" style="font-size: 20px;">-</button>
+                            <input type="text" name="number"
+                                style="margin: 10px; width: 50px; text-align: right; font-size: 20px;"
+                                placeholder="1"><button type="button" name="add">+</button></td>
+                        <td>0.00</td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>Sub-Total</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Delivery Fee</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Total</td>
+                        <td>0.00</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="section2">
+                <p>
+                   <!--Personal Details for delivery--> 
+                <div>
+                    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; padding-left: 35px;">Your Personal
+                        Details</h2>
+                    <form>
+                        <div class="submsg">
+                            <input type="text" name="name" placeholder="First Name*" style="width: 270px;" required>
+                            &ensp;
+                            <input type="text" name="name" placeholder="Last Name*" style="width: 270px;" required> <br>
+                            <input type="email" name="" placeholder="Email Address*"
+                                style="width: 270px; margin-top: 20px;" required> &ensp;
+                            <input type="text" name="number" placeholder="Contact No*" style="width: 270px;" required>
+                            <br>
+                            <textarea name="address" placeholder="Address*" class="addr" required></textarea>
+                            <div style="line-height: 20px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                <h6 style="margin-top: 10px;"><strong>Shipping Address</strong></h6>
+                                <input type="checkbox" name="address" checked> My delivery and billing address are the
+                                same
+                                <h6 style="margin-top: 10px;"><strong>Payment Method</strong></h6>
+                                <input type="checkbox" name="pay" checked> Cash on delivery &emsp;
+                                <input type="checkbox" name="pay" disabled> Credit or Debit Card
+                            </div>
+
+                            <input class="btn btn-primary" type="submit" value="Submit"
+                                style="margin: 30px 0px 20px 250px;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+<!--Footer-->
+        <div class="footer">
+
+            <div class="foot1">
+                <p>
+                <h3>Margarita Restaurant</h3><br>
+                <i class="fa fa-map-marker"></i>&nbsp;D3 Block M North Nazimabad , Karachi<br>
+                <i class="fa fa-phone"></i>&nbsp;PHONE: 92-311-1140238 <br>
+                <i class="fa fa-envelope-o"></i>&nbsp;info@margarita.com
+
+                </p>
+            </div>
+
+            <div class="foot"> Useful Links
+
+                <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+                    <div style="width: 12%;">
+                        <hr style="border: 1px solid rgb(248, 118, 43); width:100%; margin-top: 5px;  ">
+                    </div>
+                    <div style="width: 80%;">
+                        <hr
+                            style="border: 0.2px solid  rgb(124, 123, 123); opacity: 0.5; width:100%; margin-top: 6px; ">
+                    </div>
+
+                </div>
+                <div class="links">
+                    <a href="about us.html">About Us</a> <br>
+                    <a href="menu.html">Menu</a> <br>
+                    <a href="contact us.html">Contact Us</a> <br>
+                </div>
+            </div>
+
+            <div class="foot">Connect With Us <br>
+
+                <div style="word-spacing: 5px; padding-top: 5px;">
+                    <a href="#" class="fa fa-facebook faicon" style="font-size: 13px;"></a>
+
+                    <a href=" #" class="fa fa-instagram faicon" style="font-size: 12px;"></a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--COPYRIGHT-->
+        <div class="copyright">
+            <h6 style="font-size: 12px;">Copyright &#169; 2020 Margarita Restaurant, Karachi</h6>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
